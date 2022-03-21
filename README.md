@@ -4,13 +4,13 @@ Beautitab is a simple Chrome extension that displays a beautiful image from Unsp
 
 ## Setup
 Clone this repository to your filesystem:
-`git clone https://github.com/Ecksdee03/beautitabs-chrome-extension`
+`git clone https://github.com/Ecksdee03/beautitabs-chrome-extension.git`
 
 `cd` into the project folder and open it in your text editor.
 
 Replace `YOUR_ACCESS_KEY` with the API access key you can get for free from [Unsplash](https://unsplash.com/oauth/applications), under new applications.
 
-You may use your own icon and add it in the icons folder, saving the icons as their sizes - e.g. 16.png, 128.png, etc.
+You may use your own icon and add it an icons folder, saving the icons as their sizes - e.g. 16.png, 128.png, etc.
 
 ## Publishing your Chrome Extension
 Follow the steps detailed in this guide to publish your extension to the Chrome web store. A Google account is required
@@ -21,3 +21,5 @@ Chrome extensions use the same debugging workflow as regular web pages, but they
 To debug your background script, head to the chrome extensions page at chrome://extensions and ensure Developer mode is enabled. 
 
 Next, find your extension and click background page under inspect views. This will open a DevTools window for debugging purposes. Be sure to reload the extension first!
+
+![Screenshot (464)](https://user-images.githubusercontent.com/77221369/159271546-46eb359c-c443-428e-a4f7-e778cf5cac0e.png)
